@@ -1,0 +1,120 @@
+body {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fredoka One', cursive;
+}
+
+p,
+span,
+.card-title,
+.card-text {
+    font-family: 'Noto Serif KR', serif;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.title-space {
+    text-align: center;
+    margin: 30px;
+}
+
+.title {
+    display: inline-block;
+    /* 가운데 정렬 */
+    background-color: red;
+    color: white;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 3em;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+/* color change */
+.color-change {
+    color: #333;
+    animation: ct 6s infinite;
+}
+
+@keyframes ct {
+    25% {
+        color: gold;
+    }
+
+    50% {
+        color: powderblue;
+    }
+
+    75% {
+        color: #fff;
+    }
+}
+
+#work-sapce {
+    text-align: center;
+    opacity: 0.7;
+    width: 300px;
+    margin-top: 30px;
+}
+
+
+
+.col-md-6 {
+    padding: 30px;
+    height: 8em;
+    width: 30px;
+    background-color: #ffc0cb;
+    border: white 5px solid;
+    opacity: 0.7;
+}
+
+.col-6 .col-md-4 {
+    background-color: white;
+    opacity: 0.7;
+    padding: 30px;
+}
+
+.col-6 {
+    padding: 30px;
+    height: auto;
+    width: 30px;
+    background-color: #9acd32;
+    border: white 5px solid;
+    opacity: 0.7;
+}
+
+ul {
+    list-style: none;
+}
+
+.culture-space {
+    padding-top: 5%;
+}
+
+.recommand {
+    display: inline-block;
+    /* 가운데 정렬 */
+    background-color: green;
+    color: white;
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 3em;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
